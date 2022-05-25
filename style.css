@@ -194,6 +194,25 @@
 .works-text-color p {
   color: #4a4a4a;
 }
+.button-green {
+  background-color: #2d8b45;
+}
+.rounded-div {
+  height: 118px;
+  width: 200px;
+}
+.rpg {
+  padding-bottom: 100px;
+  /* height: 700px; */
+}
+.short-footer {
+  background-color: #e0eee3;
+}
+.social-icon {
+  height: 30px;
+  width: 30px;
+}
+
 /* responsive styles */
 
 @media (min-width: 360px) {
@@ -235,6 +254,10 @@
   .plan-title {
     font-size: 16px;
     line-height: 18px;
+  }
+  .availability {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
 @media (min-width: 640px) {
@@ -281,6 +304,10 @@
     font-size: 32px;
     line-height: 36px;
   }
+  .availability {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
 @media (min-width: 768px) {
   .main-container {
@@ -307,6 +334,10 @@
     padding-bottom: 150px;
   }
   .plan-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .availability {
     font-size: 32px;
     line-height: 36px;
   }
@@ -339,6 +370,10 @@
     font-size: 32px;
     line-height: 36px;
   }
+  .availability {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
 @media (min-width: 1280px) {
   .main-container {
@@ -368,6 +403,10 @@
     font-size: 32px;
     line-height: 36px;
   }
+  .availability {
+    font-size: 32px;
+    line-height: 36px;
+  }
 }
 @media (min-width: 1536px) {
   .main-container {
@@ -394,6 +433,10 @@
     padding-bottom: 150px;
   }
   .plan-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .availability {
     font-size: 32px;
     line-height: 36px;
   }
