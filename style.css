@@ -212,7 +212,38 @@
   height: 30px;
   width: 30px;
 }
+.active-color {
+  color: #2d8b45;
+}
+#main-tab {
+  margin-bottom: 150px;
+}
+.tab-content {
+  background-color: #f1fff4;
+}
+.tab-content {
+  direction: rtl;
+  overflow: auto;
+  background-color: white;
+}
+.common-style {
+  direction: ltr;
+}
+.common-style p {
+  line-height: 32px;
+}
 
+.fixed-height {
+  height: 450px;
+}
+.accordion-content-specific {
+  background-color: #f6faf7;
+  padding: 24px;
+  height: auto !important;
+}
+.accordion-content-specific p {
+  line-height: 20px;
+}
 /* responsive styles */
 
 @media (min-width: 360px) {

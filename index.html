@@ -12,7 +12,26 @@
       rel="stylesheet"
     />
     <link href="./style.css" rel="stylesheet" />
+
+    <!-- jquery -->
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      $(function () {
+        $("#tabs").tabs();
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+      });
+    </script>
   </head>
   <body class="bg-white">
     <div class="hidden sm:block main-container mx-auto">
@@ -530,6 +549,168 @@
       <span class="flex bg-green-800 service-line"></span>
       <div class="doc-slider"></div>
     </div>
+    <!-- faq -->
+    <div class="w-full bg-white">
+      <div
+        class="main-container flex flex-col justify-between tab mx-5 md:mx-0"
+        id="main-tab"
+      >
+        <div class="flex flex-col">
+          <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
+            Frequently Asked Questions
+          </h5>
+          <span class="flex button-green service-line"></span>
+        </div>
+        <!-- tab -->
+        <div class="faq-section mt-12 hidden md:block">
+          <div id="tabs" class="grid grid-cols-2">
+            <div class="flex fixed-height">
+              <ul>
+                <li class="pb-7">
+                  <a
+                    href="#tabs-1"
+                    class="font-inter text-xl font-bold active-color"
+                    >What's Olwel parent care?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-2" class="font-inter text-xl font-medium"
+                    >Why should I use this service?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-3" class="font-inter text-xl font-medium"
+                    >Payment methods?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-4" class="font-inter text-xl font-medium"
+                    >How do I reach out?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-5" class="font-inter text-xl font-medium"
+                    >During this service if any emergency arises?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-6" class="font-inter text-xl font-medium"
+                    >Can I get physical assistance if my parent needs to go to
+                    the hospital/chamber?</a
+                  >
+                </li>
+                <li class="pb-7">
+                  <a href="#tabs-7" class="font-inter text-xl font-medium"
+                    >In case of emergency do you have ambulance service?</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="flex tab-content p-12 border-l-4 border-green-700 fixed-height overflow-y-auto"
+            >
+              <div id="tabs-1" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  We are a trusted service to take care of your Elderly loved
+                  ones on your behalf. Life gets difficult when you are on the
+                  move, for both you and your parents; particularly when abroad
+                  or separated by long distances. We completely understand this,
+                  and wish to help you carry out our responsibilities. We look
+                  after their health in any and every way possible to avoid
+                  complications and emergencies.
+                </p>
+              </div>
+              <div id="tabs-2" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  Why should I use this service?
+                </p>
+              </div>
+              <div id="tabs-3" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  Is there any hidden cost?
+                </p>
+              </div>
+              <div id="tabs-4" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  Is there any hidden cost?
+                </p>
+              </div>
+              <div id="tabs-5" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  Is there any hidden cost?
+                </p>
+              </div>
+              <div id="tabs-6" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  We are a trusted service to take care of your Elderly loved
+                  ones on your behalf. Life gets difficult when you are on the
+                  move, for both you and your parents; particularly when abroad
+                  or separated by long distances. We completely understand this,
+                  and wish to help you carry out our responsibilities. We look
+                  after their health in any and every way possible to avoid
+                  complications and emergencies.
+                </p>
+                <p class="font-inter font-normal text-xl">
+                  We are a trusted service to take care of your Elderly loved
+                  ones on your behalf. Life gets difficult when you are on the
+                  move, for both you and your parents; particularly when abroad
+                  or separated by long distances. We completely understand this,
+                  and wish to help you carry out our responsibilities. We look
+                  after their health in any and every way possible to avoid
+                  complications and emergencies.
+                </p>
+              </div>
+              <div id="tabs-7" class="common-style">
+                <p class="font-inter font-normal text-xl">
+                  Is there any hidden cost?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- accordion -->
+        <div class="accordion-mobile">
+        <div id="accordion">
+          <h3 class="font-inter font-bold text-sm active-color py-6">What's Olwel parent care?</h3>
+          <div class="accordion-content-specific py-6">
+            <p class="font-inter text-xs font-normal">
+              We are a trusted service to take care of your Elderly loved ones on your behalf. 
+              Life gets difficult when you are on the move, for both you and your parents; particularly 
+              when abroad or separated by long distances. We completely understand this, and wish to help
+               you carry out our responsibilities. We look after their health in any and every way possible 
+               to avoid complications and emergencies.
+            </p>
+          </div>
+          <h3 class="font-inter font-bold text-sm py-6">Why should I use this service?</h3>
+          <div class="accordion-content-specific py-6">
+            <p class="font-inter text-xs font-normal">
+            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+            suscipit faucibus urna.
+            </p>
+          </div>
+          <h3 class="font-inter font-bold text-sm py-6">Payment methods?</h3>
+          <div class="accordion-content-specific py-6">
+            <p class="font-inter text-xs font-normal">
+            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+          </div>
+          <h3 class="font-inter font-bold text-sm py-6">How do I reach out?</h3>
+          <div class="accordion-content-specific py-6">
+            <p class="font-inter text-xs font-normal">
+            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+            mauris vel est.
+            </p>
+          </div>
+      </div>
+    </div>
+    </div>
     <!-- script for slider-->
     <!-- footer -->
     <div class="w-full button-green py-12">
@@ -591,7 +772,7 @@
             />
             <img
               class="social-icon mr-3 hover:opacity-50"
-              src="./public/images/tw.svg"
+              src="./public/images/v.svg"
               alt="footer logo"
             />
           </div>
