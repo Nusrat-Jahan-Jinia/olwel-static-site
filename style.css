@@ -224,7 +224,6 @@
 .tab-content {
   direction: rtl;
   overflow: auto;
-  background-color: white;
 }
 .common-style {
   direction: ltr;
