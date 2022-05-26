@@ -243,6 +243,17 @@
 .accordion-content-specific p {
   line-height: 20px;
 }
+
+/* slider starts */
+.all {
+  display: flex;
+}
+.cl-1 {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+/* slider ends */
 /* responsive styles */
 
 @media (min-width: 360px) {

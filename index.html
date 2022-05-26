@@ -12,26 +12,12 @@
       rel="stylesheet"
     />
     <link href="./style.css" rel="stylesheet" />
-
-    <!-- jquery -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
-    />
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    /> -->
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      $(function () {
-        $("#tabs").tabs();
-      });
-    </script>
-    <script>
-      $(function () {
-        $("#accordion").accordion();
-      });
-    </script>
   </head>
   <body class="bg-white">
     <div class="hidden sm:block main-container mx-auto">
@@ -541,14 +527,27 @@
       </div> -->
     </div>
 
-    <!-- doctors slider -->
-    <div class="main-container doc px-5 md:px-0">
-      <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
-        Our Doctors
-      </h5>
-      <span class="flex bg-green-800 service-line"></span>
-      <div class="doc-slider"></div>
+    <!-- doctor slider starts -->
+    <div class="w-full bg-white">
+      <div class="main-container px-5 md:px-0" id="doctors-slider">
+        <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
+          Our Doctors
+        </h5>
+        <span class="flex bg-green-800 service-line"></span>
+        <!-- <div class="all responsive">
+          <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+          <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
+        </div> -->
+      </div>
     </div>
+    <!-- doctor slider ends-->
+
     <!-- faq -->
 
     <div class="w-full bg-white">
@@ -721,8 +720,6 @@
         <!-- accordion end -->
       </div>
     </div>
-
-    <!-- script for slider-->
     <!-- footer -->
     <div class="w-full button-green py-12">
       <div class="main-container flex justify-between">
@@ -820,5 +817,36 @@
         </div>
       </div>
     </div>
+    <div class="main-container">
+      <div class="all responsive">
+        <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+        <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
+      </div>
+    </div>
+    <!-- script -->
+    <script type="text/javascript" src="./script/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./script/slick.min.js"></script>
+    <script type="text/javascript" src="./script/custom.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#tabs").tabs();
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+      });
+    </script>
   </body>
 </html>
