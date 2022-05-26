@@ -11,18 +11,26 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link href="./style.css" rel="stylesheet" />
-    <!-- <link
+    <link
       rel="stylesheet"
-      href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
-    /> -->
-    <!-- tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body class="bg-white">
     <div class="hidden sm:block main-container mx-auto">
-      <div class="grid py-8 grid-cols-1 md:grid-cols-2">
-        <div class="">
+      <div class="grid py-8 grid-cols-2">
+        <div class="flex">
           <img class="inline h-7" src="./public/images/logo.png" alt="image" />
         </div>
         <div class="flex flex-row-reverse gap-8 header-class">
@@ -33,10 +41,108 @@
       </div>
     </div>
     <div class="mx-auto w-full">
-      <img class="inline" src="./public/images/cover.png" alt="image" />
+      <div class="">
+        <img class="inline" src="./public/images/cover.png" alt="image" />
+      </div>
+      <!-- <div class="child1 child2">
+        <div class="flex top-div mx-auto flex-col">
+          <div class="p-12 top">
+            <h1 class="font-poppins font-medium text-5xl mb-6">
+              Take care of your <span class="font-bold">Parents</span> from
+              across the world
+            </h1>
+            <p>
+              Olwel Parent Care plan offers healthcare professional at your home
+            </p>
+          </div>
+          <div class="button-green p-8">
+            <p class="font-inter font-bold text-xl text-white text-right">
+              Get started
+            </p>
+          </div>
+        </div>
+      </div> -->
     </div>
 
-    <div class="main-container mx-auto container-padding">
+    <div class="w-full bg-white">
+      <div class="main-container mx-auto container-padding px-5 md:px-0">
+        <div class="flex flex-col">
+          <div
+            class="first-section common-section flex flex-col md:flex-row flex-col-reverse justify-between"
+          >
+            <div class="w-full md:w-2/4 mx-auto pt-9 md:pt-0">
+              <img
+                class="inline"
+                src="./public/images/doctor.png"
+                alt="doctor image"
+              />
+            </div>
+            <div class="w-full md:w-2/4 mx-auto">
+              <div class="how-we-work">
+                <h1>
+                  A <span class="green"> dedicated doctor</span> visits your
+                  parent,
+                  <span class="green"> every week</span>
+                </h1>
+                <p class="">
+                  Detect any health threat before it happens. Frequent and
+                  regular checkup significantly lessens the risk factor.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="second-section common-section flex flex-col md:flex-row justify-between"
+          >
+            <div class="w-full md:w-2/4 mx-auto">
+              <div class="how-we-work">
+                <h1>
+                  From<span class="green"> diagnosis</span> to
+                  <span class="green"> treatment</span>,we cover it all for you
+                </h1>
+                <p class="">
+                  We arrange everything at your home. Your parents don’t need to
+                  go out for lab tests, prescription or medication unless it’s
+                  absolutely necessary.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-2/4 mx-auto pt-9 md:pt-0">
+              <img
+                class="inline"
+                src="./public/images/diagnosis.png"
+                alt="doctor image"
+              />
+            </div>
+          </div>
+          <div
+            class="third-section flex flex-col md:flex-row flex-col-reverse justify-between"
+          >
+            <div class="w-full md:w-2/4 mx-auto pt-9 md:pt-0">
+              <img
+                class="inline"
+                src="./public/images/specialist.png"
+                alt="doctor image"
+              />
+            </div>
+            <div class="w-full md:w-2/4 mx-auto">
+              <div class="how-we-work">
+                <h1>
+                  Need a <span class="green">specialist?</span> One call away
+                </h1>
+                <p class="">
+                  We understand the benefit of a second opinion. Our home visit
+                  doctor connects you with a specialist doctor via video call
+                  when necessary.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="main-container mx-auto container-padding">
       <div class="flex mx-auto flex-row-reverse sm:flex-row">
         <div class="w-2/4 mx-auto">
           <img
@@ -102,7 +208,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- call -->
     <div class="mx-auto w-full call-section container-padding">
@@ -503,54 +609,158 @@
                 </div>
               </form>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- availability section -->
-      <!-- <div class="">
-        <div class="flex bg-white main-container pt-16 pb-7">
-          <div class="flex w-2/4">
-            <h1 class="font-poppins font-bold availability">
-              Availability of Olwel Doctors on Demand
-            </h1>
-            <div
-              class="rounded-full button-green items-center rounded-div align-middle"
-            >
-              <p
-                class="text-center text-white font-inter text-3xl md:text-4xl align-middle"
-              >
-                14/7
-              </p>
+            <div class="flex">
+              <div class="flex">
+                <h1 class="font-poppins font-bold availability">
+                  Availability of Olwel Doctors on Demand
+                </h1>
+                <div
+                  class="rounded-full button-green items-center rounded-div align-middle"
+                >
+                  <p
+                    class="text-center text-white font-inter text-3xl md:text-4xl align-middle"
+                  >
+                    14/7
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
 
     <!-- doctor slider starts -->
-    <div class="w-full bg-white">
-      <div class="main-container px-5 md:px-0" id="doctors-slider">
-        <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
-          Our Doctors
-        </h5>
-        <span class="flex bg-green-800 service-line"></span>
-        <!-- <div class="all responsive">
-          <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
-          <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
-        </div> -->
+    <div class="w-full bg-white px-5 md:px-5">
+      <div class="main-container" id="doctors-slider">
+        <div class="flex flex-col mb-12">
+          <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
+            Our Doctors
+          </h5>
+          <span class="flex button-green service-line"></span>
+        </div>
+        <div class="all responsive">
+          <div class="flex flex-col items-center md:items-start">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Saleh Uddin Mahmood
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor, DMC
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Moazzem Hossain
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Professor and ex departmental head of Skin VD, Rajshahi Medical
+              college Hospital.
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Md. Saifullah
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor, DMC
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Saleh Uddin Mahmood
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor Neuro Medicine, Birdem
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Saleh Uddin Mahmood
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor, DMC
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Saleh Uddin Mahmood
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor, DMC
+            </p>
+          </div>
+          <div class="flex flex-col">
+            <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
+            <h2
+              class="text-center md:text-left font-inter font-medium text-2xl mb-4 mt-6"
+            >
+              Dr. Saleh Uddin Mahmood
+            </h2>
+            <h3 class="text-center md:text-left font-inter font-bold text-base">
+              FCPS (Medicine)
+            </h3>
+            <p
+              class="text-center md:text-left font-inter font-medium text-base doc-title-color"
+            >
+              Assistant Professor
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <!-- doctor slider ends-->
 
     <!-- faq -->
 
-    <div class="w-full bg-white">
+    <div class="w-full bg-white px-5 md:px-5">
       <div class="main-container" id="main-tab">
         <div class="flex flex-col">
           <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
@@ -558,7 +768,6 @@
           </h5>
           <span class="flex button-green service-line"></span>
         </div>
-        <!-- tab start -->
         <div class="faq-section mt-12 hidden md:block">
           <div id="tabs" class="grid grid-cols-2">
             <div class="flex fixed-height">
@@ -665,8 +874,6 @@
             </div>
           </div>
         </div>
-        <!-- tab end -->
-        <!-- accordion start -->
         <div class="accordion-mobile block md:hidden">
           <div id="accordion">
             <h3 class="font-inter font-bold text-sm active-color py-6">
@@ -717,11 +924,10 @@
             </div>
           </div>
         </div>
-        <!-- accordion end -->
       </div>
     </div>
     <!-- footer -->
-    <div class="w-full button-green py-12">
+    <div class="w-full button-green py-12 px-5 md:px-5">
       <div class="main-container flex justify-between">
         <div class="flex flex-col">
           <h5
@@ -788,8 +994,8 @@
       </div>
     </div>
     <!-- short footer -->
-    <div class="w-full short-footer py-3 items-center">
-      <div class="main-container flex justify-between px-5 md:px-0 items-end">
+    <div class="w-full short-footer px-5 md:px-5 py-3 items-center">
+      <div class="main-container flex justify-between items-end">
         <div class="flex flex-col md:flex-row items-center">
           <img
             class="w-20 h-7 mr-6 mb-2 md:mb-0"
@@ -817,27 +1023,20 @@
         </div>
       </div>
     </div>
-    <div class="main-container">
-      <div class="all responsive">
-        <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc3.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc2.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc1.png" alt="doc" />
-        <img class="cl-1" src="./public/images/doc4.png" alt="doc" />
-      </div>
-    </div>
+
     <!-- script -->
-    <script type="text/javascript" src="./script/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="./script/slick.min.js"></script>
-    <script type="text/javascript" src="./script/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script
       type="text/javascript"
       src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
     ></script>
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       $(function () {
         $("#tabs").tabs();
@@ -846,6 +1045,54 @@
     <script>
       $(function () {
         $("#accordion").accordion();
+      });
+    </script>
+    <script type="text/javascript">
+      $(".responsive").slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 400,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
       });
     </script>
   </body>
