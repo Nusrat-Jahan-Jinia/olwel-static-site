@@ -41,21 +41,21 @@
       </div>
     </div>
     <div class="mx-auto w-full relative relative-div">
-      <div class="">
+      <div class="flex h-72 md:h-auto ">
         <img class="inline" src="./public/images/cover.png" alt="image" />
       </div>
-      <div class="absolute up-div main-container">
+      <div class="absolute up-div main-container hidden sm:block">
         <div class="flex-col main-width">
              <div class="p-12 top">
-            <h1 class="font-poppins font-medium text-5xl mb-6">
+            <h1 class="font-poppins font-medium text-3xl lg:text-5xl mb-6">
               Take care of your <span class="font-bold">Parents</span> from
               across the world
             </h1>
-            <p class="text-2xl font-inter text-black opacity-90">
+            <p class="hidden sm:block text-base lg:text-2xl font-inter text-black opacity-90">
               Olwel Parent Care plan offers healthcare professional at your home
             </p>
           </div>
-          <div class="button-green p-8 flex items-end">
+          <div class="button-green p-8 flex items-end hidden xl:block">
             <div class="flex">
             <p class="font-inter font-bold text-xl text-white text-right pr-2">
               Get started
@@ -470,8 +470,7 @@
       </div>
     </div>
     <!-- works -->
-    <div class="w-full bg-white rpg">
-      <div class="w-full works">
+      <div class="w-full works ">
         <div class="main-container works-margin px-5 md:px-0">
           <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
             How it works
@@ -512,7 +511,7 @@
                 and start the process.
               </p>
             </div>
-            <div class="flex flex-col bg-white p-12">
+            <div class="flex flex-col bg-white p-6 md:p-12">
               <h2 class="font-inter font-sm md:text-xl font-bold pb-2">
                 Reach us directly from your phone
               </h2>
@@ -525,52 +524,49 @@
                   alt="phone image"
                 />09666 766 000
               </h3>
-              <p class="font-inter text-xs md:text-xl font-bold py-16">Or</p>
+              <p class="font-inter text-xs md:text-xl font-bold py-5 md:py-16">Or</p>
               <p class="font-inter text-sm md:text-xl font-bold pb-2">
                 Leave your number, we will call you back shortly
               </p>
 
-              <form>
-                <div class="form-group">
+              <form class="flex">
+                <div class="form-group flex flex-col md:flex-row">
                   <input
                     type="text"
-                    class="h-10 form-control p-1 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                    class="flex rounded-l-lg h-10 form-control p-1 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="number"
                     aria-describedby="emailHelp"
                     placeholder="+880"
                   />
                   <button
                     type="submit"
-                    class="px-6 py-2 bg-green-800 text-white font-bold text-xl"
+                    class="flex px-6 pt-1 bg-green-800 text-white font-bold text-xl rounded-r-lg mt-2 md:mt-0"
                   >
                     Submit
                   </button>
                 </div>
               </form>
             </div>
-            <div class="flex">
-              <div class="flex">
-                <h1 class="font-poppins font-bold availability">
-                  Availability of Olwel Doctors on Demand
-                </h1>
-                <div
-                  class="rounded-full button-green items-center rounded-div align-middle"
-                >
-                  <p
-                    class="text-center text-white font-inter text-3xl md:text-4xl align-middle"
-                  >
-                    14/7
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
+   
+  <div class="w-full bg-white availability-div">
+        <div class="main-container mx-auto px-5 md:px-0">
+          <div class="flex w-full md:w-2/4 items-center">
+            <h1 class="font-poppins font-bold availability">
+            Availability of Olwel Doctors on Demand
+          </h1>
+            <div
+            class="items-center flex font-inter text-3xl md:text-4xl font-extrabold text-white rounded-full button-green rounded-div"
+          > 14/7
+          </div>
+          </div>
+        </div>
     </div>
 
     <!-- doctor slider starts -->
-    <div class="w-full bg-white px-5 md:px-5">
+    <div class="w-full bg-white px-5 md:px-5 doctors-div">
       <div class="main-container" id="doctors-slider">
         <div class="flex flex-col mb-12">
           <h5 class="font-poppins font-bold text-base md:text-2xl pb-2">
