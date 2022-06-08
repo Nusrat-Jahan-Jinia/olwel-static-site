@@ -127,8 +127,6 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 48px;
-  line-height: 50px;
 }
 .how-we-work h1 .green {
   font-weight: 700;
@@ -137,8 +135,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 24px;
-  line-height: 32px;
   color: #4e4e4e;
   padding-top: 60px;
 }
@@ -213,7 +209,7 @@
   height: 30px;
   width: 30px;
 }
-.active-color {
+.active {
   color: #2d8b45;
 }
 
@@ -309,9 +305,18 @@
   left: 0px;
   background-color: rgba(14, 73, 29, 0.5);
 }
+.outline-color {
+  outline-color: #0e491d;
+  outline-width: 1rem;
+}
 /* responsive styles */
 
 @media (min-width: 360px) {
+  .how-we-work p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 36px;
+  }
   .plan-padding {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -320,21 +325,8 @@
     background-color: transparent;
   }
   .how-we-work h1 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 36px;
-  }
-
-  .how-we-work p {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #4e4e4e;
-    padding-top: 36px;
   }
   .container-padding {
     padding-top: 40px;
@@ -397,19 +389,12 @@
     display: block;
   }
   .how-we-work h1 {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
     line-height: 36px;
   }
   .how-we-work p {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #4e4e4e;
     padding-top: 36px;
   }
   .container-padding {
@@ -459,6 +444,10 @@
   }
 }
 @media (min-width: 768px) {
+  .how-we-work h1 {
+    font-size: 48px;
+    line-height: 36px;
+  }
   .plan-padding {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -519,6 +508,11 @@
   .availability-div {
     padding-top: 100px;
     margin-top: -280px;
+  }
+  .how-we-work p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
   }
 }
 @media (min-width: 1024px) {
@@ -583,6 +577,15 @@
     padding-top: 100px;
     margin-top: -285px;
   }
+  .how-we-work h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .how-we-work p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
+  }
 }
 @media (min-width: 1280px) {
   .plan-padding {
@@ -646,6 +649,15 @@
     padding-top: 100px;
     margin-top: -285px;
   }
+  .how-we-work h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .how-we-work p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
+  }
 }
 @media (min-width: 1536px) {
   .plan-padding {
@@ -708,5 +720,14 @@
   .availability-div {
     padding-top: 100px;
     margin-top: -285px;
+  }
+  .how-we-work h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .how-we-work p {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 60px;
   }
 }

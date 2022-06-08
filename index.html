@@ -25,6 +25,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <style>
+      .mystyle {
+        width: 100%;
+        padding: 25px;
+        background-color: coral;
+        color: white;
+        font-size: 25px;
+        box-sizing: border-box;
+      }
+    </style>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./style.css" rel="stylesheet" />
   </head>
@@ -471,10 +482,10 @@
           >
             You can further customize the services according to your needs
           </p>
-          <span
-            class="flex mx-auto flex py-4 px-7 border border-color rounded-lg gap-2 items-center"
-          >
-            <a href="#contact">
+          <a href="#contact">
+            <span
+              class="flex mx-auto flex py-4 px-7 border border-color rounded-lg gap-2 items-center"
+            >
               <button class="text-white font-inter text-xl font-extrabold">
                 Get started
               </button>
@@ -483,8 +494,8 @@
                 src="./public/images/arrow.svg"
                 alt="arrow"
               />
-            </a>
-          </span>
+            </span>
+          </a>
         </div>
       </div>
     </div>
@@ -528,7 +539,9 @@
               start the process.
             </p>
           </div>
-          <div class="flex flex-col bg-white p-6 md:p-12">
+          <div
+            class="flex flex-col bg-white p-6 md:p-12 rounded-md outline-color drop-shadow-md"
+          >
             <h2 class="font-inter font-sm md:text-xl font-bold pb-2">
               Reach us directly from your phone
             </h2>
@@ -544,15 +557,15 @@
             <p class="font-inter text-xs md:text-xl font-bold py-5 md:py-16">
               Or
             </p>
-            <p class="font-inter text-sm md:text-xl font-bold pb-2">
+            <p class="font-inter text-sm md:text-xl font-bold pb-4">
               Leave your number, we will call you back shortly
             </p>
 
-            <form class="flex">
+            <form class="flex mx-auto">
               <div class="form-group flex flex-col md:flex-row">
                 <input
                   type="text"
-                  class="flex rounded-l-lg h-10 form-control p-1 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  class="flex rounded-l-lg h-10 form-control px-3 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="number"
                   aria-describedby="emailHelp"
                   placeholder="+880"
@@ -605,7 +618,7 @@
           <div id="tabs" class="grid grid-cols-2">
             <div class="flex">
               <ul class="tab_navigation">
-                <li class="pb-7 active">
+                <li class="pb-7">
                   <a href="#tabs-1" class="font-inter text-xl font-medium"
                     >What is Olwel's parent care?</a
                   >
@@ -665,7 +678,7 @@
               </ul>
             </div>
             <div
-              class="flex tab-content p-12 border-l-4 border-green-700 overflow-y-auto"
+              class="flex tab-content p-12 border-l-4 border-green-700 overflow-y-auto rounded-tr-md rounded-br-md"
             >
               <div id="tabs-1" class="common-style">
                 <p class="font-inter font-normal text-xl">
@@ -973,7 +986,7 @@
     </div>
     <!-- short footer -->
     <div class="w-full short-footer px-5 md:px-5 py-3 items-center">
-      <div class="main-container flex justify-between items-end">
+      <div class="main-container flex justify-between">
         <div class="flex flex-col md:flex-row items-center">
           <img
             class="w-20 h-7 mr-6 mb-2 md:mb-0"
@@ -1025,13 +1038,10 @@
       });
     </script>
     <script>
-      $(
-        ".tab_navigation li".click(function (event) {
-          index = $(this).index();
-          $(".tab_navigation li").remove("active");
-          $(this).addClass("active");
-        })
-      );
+      function myFunction() {
+        var activeLink = document.querySelector("tab_navigation li");
+        element.classList.add("mystyle");
+      }
     </script>
   </body>
 </html>
