@@ -42,31 +42,52 @@
       </div>
     </div>
     <div class="mx-auto w-full relative relative-div">
-      <div class="flex h-72 md:h-auto">
-        <img class="inline" src="./public/images/cover.png" alt="image" />
+      <div class="flex mx-auto">
+        <img
+          class="hidden sm:block h-80 lg:h-auto"
+          src="./public/images/cover.png"
+          alt="image"
+        />
+        <img
+          class="block sm:hidden w-full"
+          src="./public/images/mobile-cover.png"
+          alt="image"
+        />
       </div>
-      <div class="absolute up-div main-container hidden sm:block">
-        <div class="flex-col main-width">
-          <div class="p-12 top">
+
+      <div class="absolute up-div main-container">
+        <div class="flex flex-col main-width">
+          <div
+            class="p-12 top rounded-tl-md rounded-tr-md text-white md:text-black"
+          >
             <h1 class="font-poppins font-medium text-3xl lg:text-5xl mb-6">
               Take care of your <span class="font-bold">Parents</span> from
               across the world
             </h1>
             <p
-              class="hidden sm:block text-base lg:text-2xl font-inter text-black opacity-90"
+              class="text-base lg:text-2xl font-inter text-white md:text-black opacity-90"
             >
               Olwel Parent Care plan offers healthcare professional at your home
             </p>
           </div>
-          <div class="button-green p-8 flex items-end hidden xl:block">
-            <div class="flex">
-              <p
-                class="font-inter font-bold text-xl text-white text-right pr-2"
-              >
-                Get started
-              </p>
-              <img class="inline" src="./public/images/arrow.svg" alt="arrow" />
-            </div>
+
+          <div
+            class="button-green p-8 flex hidden xl:block rounded-bl-md rounded-br-md"
+          >
+            <a href="#contact">
+              <div class="flex justify-end">
+                <p
+                  class="font-inter font-bold text-xl text-white text-right pr-2"
+                >
+                  Get started
+                </p>
+                <img
+                  class="inline"
+                  src="./public/images/arrow.svg"
+                  alt="arrow"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -76,7 +97,7 @@
       <div class="main-container mx-auto container-padding px-5 md:px-0">
         <div class="flex flex-col">
           <div
-            class="first-section common-section flex flex-col md:flex-row flex-col-reverse justify-between"
+            class="first-section common-section flex flex-col md:flex-row flex-col-reverse md:space-x-10 lg:space-x-20"
           >
             <div class="w-full md:w-2/4 mx-auto pt-9 md:pt-0">
               <img
@@ -84,6 +105,12 @@
                 src="./public/images/doctor.png"
                 alt="doctor image"
               />
+              <div class="block md:hidden flex w-full pt-9">
+                <p>
+                  Detect any health threat before it happens. Frequent and
+                  regular checkup significantly lessens the risk factor.
+                </p>
+              </div>
             </div>
             <div class="w-full md:w-2/4 mx-auto">
               <div class="how-we-work">
@@ -92,7 +119,7 @@
                   parent,
                   <span class="green"> every week</span>
                 </h1>
-                <p class="">
+                <p class="hidden md:block">
                   Detect any health threat before it happens. Frequent and
                   regular checkup significantly lessens the risk factor.
                 </p>
@@ -100,7 +127,7 @@
             </div>
           </div>
           <div
-            class="second-section common-section flex flex-col md:flex-row justify-between"
+            class="second-section flex flex-col md:flex-row md:space-x-10 lg:space-x-20"
           >
             <div class="w-full md:w-2/4 mx-auto">
               <div class="how-we-work">
@@ -108,7 +135,7 @@
                   From<span class="green"> diagnosis</span> to
                   <span class="green"> treatment</span>,we cover it all for you
                 </h1>
-                <p class="">
+                <p class="hidden md:block">
                   We arrange everything at your home. Your parents don’t need to
                   go out for lab tests, prescription or medication unless it’s
                   absolutely necessary.
@@ -122,6 +149,13 @@
                 alt="doctor image"
               />
             </div>
+            <div class="block md:hidden flex w-full">
+              <p>
+                We arrange everything at your home. Your parents don’t need to
+                go out for lab tests, prescription or medication unless it’s
+                absolutely necessary.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -129,13 +163,15 @@
 
     <!-- call -->
     <div class="mx-auto w-full call-section container-padding">
-      <div class="main-container flex flex-col md:flex-row px-5 md:mx-auto">
+      <div
+        class="main-container flex flex-col md:flex-row px-5 md:mx-auto md:space-x-10 lg:space-x-20"
+      >
         <div class="flex w-full md:w-2/4 how-we-work flex-col">
           <h1>
             Anything important comes up
             <span class="green">we’ll call you </span>right away
           </h1>
-          <p class="hidden sm:block">
+          <p class="hidden md:block">
             We call your parents on a regular basis to keep track of their
             medication and well-being. We notify you at once when we see any
             issue. Needless to say, you can call us anytime, we understand your
@@ -765,7 +801,7 @@
       </div>
     </div>
     <!-- footer -->
-    <div class="w-full button-green py-12 px-5 md:px-5">
+    <div class="w-full button-green py-12 px-5 md:px-5" id="contact">
       <div class="main-container flex justify-between">
         <div class="flex flex-col">
           <h5
