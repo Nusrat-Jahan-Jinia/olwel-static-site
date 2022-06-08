@@ -25,16 +25,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <style>
-      .mystyle {
-        width: 100%;
-        padding: 25px;
-        background-color: coral;
-        color: white;
-        font-size: 25px;
-        box-sizing: border-box;
-      }
-    </style>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="./style.css" rel="stylesheet" />
@@ -561,18 +551,18 @@
               Leave your number, we will call you back shortly
             </p>
 
-            <form class="flex mx-auto">
-              <div class="form-group flex flex-col md:flex-row">
+            <form class="flex">
+              <div class="form-group flex">
                 <input
                   type="text"
-                  class="flex rounded-l-lg h-10 form-control px-3 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  class="flex w-full rounded-l-md h-10 form-control px-3 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   id="number"
                   aria-describedby="emailHelp"
                   placeholder="+880"
                 />
                 <button
                   type="submit"
-                  class="flex px-6 pt-1 bg-green-800 text-white font-bold text-xl rounded-r-lg mt-2 md:mt-0"
+                  class="flex px-6 pt-1 bg-green-800 text-white font-bold text-xl rounded-r-md mt-0"
                 >
                   Submit
                 </button>
@@ -986,7 +976,7 @@
     </div>
     <!-- short footer -->
     <div class="w-full short-footer px-5 md:px-5 py-3 items-center">
-      <div class="main-container flex justify-between">
+      <div class="main-container flex justify-between items-end md:items-center">
         <div class="flex flex-col md:flex-row items-center">
           <img
             class="w-20 h-7 mr-6 mb-2 md:mb-0"
@@ -997,20 +987,15 @@
             © Olwel BD Ltd. All Rights Reserved
           </p>
         </div>
-        <div class="flex flex-col md:flex-row items-center">
+        <div class="flex flex-col md:flex-row-reverse items-center">
           <img
-            class="block md:hidden w-20 mb-2 md:mb-0"
+            class="w-20 mb-2 md:mb-0 ml-6"
             src="./public/images/footer-dsi.svg"
             alt="footer logo"
           />
           <p class="font-inter text-xs md:text-base text-center">
             Software Platform Development Partner
           </p>
-          <img
-            class="hidden md:block w-20 ml-6"
-            src="./public/images/footer-dsi.svg"
-            alt="footer logo"
-          />
         </div>
       </div>
     </div>
@@ -1036,12 +1021,6 @@
       $(function () {
         $("#accordion").accordion();
       });
-    </script>
-    <script>
-      function myFunction() {
-        var activeLink = document.querySelector("tab_navigation li");
-        element.classList.add("mystyle");
-      }
     </script>
   </body>
 </html>
