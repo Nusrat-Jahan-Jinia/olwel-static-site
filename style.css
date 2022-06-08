@@ -371,7 +371,7 @@
   }
   .up-div {
     z-index: 100;
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
