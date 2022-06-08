@@ -300,6 +300,11 @@
 #tabs ul li:active {
   color: #2d8b45;
 }
+
+.ui-state-active {
+  color: #2d8b45 !important;
+}
+
 .upper-layer {
   top: 0px;
   left: 0px;
