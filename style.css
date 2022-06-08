@@ -85,9 +85,12 @@
 .header-class h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+.header-class h1:hover {
+  font-weight: 600;
 }
 .header-class h2 {
   font-family: "Poppins", sans-serif;
@@ -96,13 +99,19 @@
   font-size: 20px;
   line-height: 24px;
 }
+.header-class h2:hover {
+  font-weight: 600;
+}
 .header-class h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #2d8b45;
+}
+.header-class h3:hover {
+  font-weight: 600;
 }
 .custom-container {
   display: flex;
@@ -288,10 +297,18 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-/* .image-div{
-  background-image: url('./public/images/cover.png');
-} */
-
+#tabs ul li:hover {
+  font-weight: normal;
+  color: #2d8b45;
+}
+#tabs ul li:active {
+  color: #2d8b45;
+}
+.upper-layer {
+  top: 0px;
+  left: 0px;
+  background-color: rgba(14, 73, 29, 0.5);
+}
 /* responsive styles */
 
 @media (min-width: 360px) {

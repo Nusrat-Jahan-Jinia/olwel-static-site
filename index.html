@@ -29,18 +29,33 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body class="bg-white">
-    <div class="hidden sm:block main-container mx-auto">
+    <div class="hidden md:block main-container mx-auto">
       <div class="grid py-8 grid-cols-2">
         <div class="flex">
           <img class="inline h-7" src="./public/images/logo.png" alt="image" />
         </div>
-        <div class="flex flex-row-reverse gap-8 header-class">
-          <h3>Call 09666766000</h3>
-          <h2>FAQ</h2>
-          <h1>Pricing</h1>
+        <div class="flex flex-row-reverse gap-4 lg:gap-8 header-class">
+          <h3 class="inline">Call 09666766000</h3>
+          <h2 class="inline">FAQ</h2>
+          <h1 class="inline">Pricing</h1>
         </div>
       </div>
     </div>
+    <!-- mobile menu -->
+    <div class="w-full button-green block md:hidden">
+      <div class="flex px-5 py-4 justify-center">
+        <div class="">
+          <a href="https://olwel.com/">
+            <img
+              class="h-5 w-14"
+              src="./public/images/mobile-logo.png"
+              alt="image"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- menu ends -->
     <div class="mx-auto w-full relative relative-div">
       <div class="flex mx-auto">
         <img
@@ -49,10 +64,13 @@
           alt="image"
         />
         <img
-          class="block sm:hidden w-full"
+          class="block sm:hidden w-full h-80 lg:h-auto"
           src="./public/images/mobile-cover.png"
           alt="image"
         />
+      </div>
+      <div class="block md:hidden">
+        <div class="absolute upper-layer flex mx-auto w-full h-80"></div>
       </div>
 
       <div class="absolute up-div main-container">
@@ -456,10 +474,16 @@
           <span
             class="flex mx-auto flex py-4 px-7 border border-color rounded-lg gap-2 items-center"
           >
-            <button class="text-white font-inter text-xl font-extrabold">
-              Get started
-            </button>
-            <img class="h-4 w-4" src="./public/images/arrow.svg" alt="arrow" />
+            <a href="#contact">
+              <button class="text-white font-inter text-xl font-extrabold">
+                Get started
+              </button>
+              <img
+                class="h-4 w-4"
+                src="./public/images/arrow.svg"
+                alt="arrow"
+              />
+            </a>
           </span>
         </div>
       </div>
@@ -580,11 +604,9 @@
         <div class="flex mx-auto mt-12 hidden md:block">
           <div id="tabs" class="grid grid-cols-2">
             <div class="flex">
-              <ul>
-                <li class="pb-7">
-                  <a
-                    href="#tabs-1"
-                    class="font-inter text-xl font-bold active-color"
+              <ul class="tab_navigation">
+                <li class="pb-7 active">
+                  <a href="#tabs-1" class="font-inter text-xl font-medium"
                     >What is Olwel's parent care?</a
                   >
                 </li>
@@ -1001,6 +1023,15 @@
       $(function () {
         $("#accordion").accordion();
       });
+    </script>
+    <script>
+      $(
+        ".tab_navigation li".click(function (event) {
+          index = $(this).index();
+          $(".tab_navigation li").remove("active");
+          $(this).addClass("active");
+        })
+      );
     </script>
   </body>
 </html>
