@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Olwel - Contact Us</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Olwel is a service based in Bangladesh that sends doctors to home visits.">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112927497-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag () {
+            dataLayer.push(arguments);
+        }
+
+        if (window.location.hostname.indexOf('olwel.com') > -1) {
+            gtag('js', new Date());
+            gtag('config', 'UA-112927497-1');
+        }
+    </script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/olwel.css" rel="stylesheet">
+</head>
+
+<body>
+
+<section class="doctor">
+    <div class="logo-container text-center">
+        <a href="/">
+            <img class="logo" src="img/logo-full.svg" alt="logo">
+        </a>
+    </div>
+
+    <h2 class="text-center">Contact Us</h2>
+
+    <div class="parent-container">
+        <div class="container well contact-container">
+            <!--<div class="row">-->
+                <!--&lt;!&ndash; left spacer &ndash;&gt;-->
+                <!--<div class="col-md">-->
+                <!--</div>-->
+
+                <!--<div class="col-md">-->
+                    <form action="/form/contact" method="post">
+                        <!--<div class="container">-->
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label for="name">Name</label>
+                                    <input required type="text" class="form-control" name="name" id="name"
+                                           maxlength="60"
+                                           placeholder="Your full name">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <label for="phone">Phone</label>
+                                    <input required type="tel" class="form-control" name="phone" id="phone"
+                                           maxlength="20"
+                                           placeholder="Your contact phone number">
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" maxlength="40">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label>Your Queries</label>
+                                        <textarea class="form-control" name="queries" rows="5" maxlength="500"
+                                                  placeholder="If you have any questions, write here"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--<div class="row">-->
+                                <!--<div class="col-sm-12 form-group">-->
+                                    <!--<div class="checkbox">-->
+                                        <!--<label>-->
+                                            <!--<input name="interest" type="checkbox" value="doctor">-->
+                                            <!--I am interested to be a doctor.-->
+                                        <!--</label>-->
+                                    <!--</div>-->
+                                    <!--<div class="checkbox">-->
+                                        <!--<label>-->
+                                            <!--<input name="interest" type="checkbox" value="patient">-->
+                                            <!--I want to know about patient services.-->
+                                        <!--</label>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+
+                            <div class="row submit-row">
+                                <div class="col-sm-4"></div>
+                                <div class="col-sm-4 text-center">
+                                    <input type="submit" class="btn btn-default btn-olwel" value="Submit">
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        <!--</div>-->
+                    </form>
+                <!--</div>-->
+
+                <!--&lt;!&ndash; right spacer &ndash;&gt;-->
+                <!--<div class="col-md">-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+
+
+</section>
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/bootstrap.file-input.js"></script>
+
+</body>
+</html>

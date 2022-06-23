@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head
+      prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#"
+      >
+      <title>Olwel-Doctors</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#14a46e" />
+      <meta
+         name="description"
+         content="Olwel is a Finland based healthcare startup working in Bangladesh.
+         With our innovative service, we connect patients with qualified doctors nearby who provide the service
+         at the patient's home."/>
+      <link rel="alternate" href="https://olwel.com" hreflang="bn-BD" />
+      <link rel="alternate" href="https://olwel.com/en" hreflang="en" />
+      <link rel="canonical" href="https://olwel.com/en" />
+      <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Olwel - Feel Well" />
+      <meta
+         property="og:description"
+         content="Olwel is a Finland based healthcare startup working in Bangladesh.
+         With our innovative service, we connect patients with qualified doctors nearby who provide the service
+         at the patient's home."
+         />
+      <meta property="og:url" content="https://olwel.com/en" />
+      <meta property="og:site_name" content="Olwel.com" />
+      <meta property="og:image" content="https://olwel.com/img/link_post.jpg" />
+      <!-- Theme CSS -->
+      <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="../vendor/ionicons/css/ionicons.min.css" rel="stylesheet" />
+      <link href="..//css/olwel.css" rel="stylesheet"/>
+      <!-- Google Analytics -->
+      <script
+         async
+         src="https://www.googletagmanager.com/gtag/js?id=UA-112927497-1"
+         ></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+         if (window.location.hostname.indexOf("olwel.com") > -1) {
+           gtag("js", new Date());
+           gtag("config", "UA-112927497-1");
+         }
+      </script>
+   </head>
+   <body>
+      <!-- Header -->
+      <header id="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <a hreflang="en" lang="en" href="../doctors.html" class="lang career-as-doctor-link">বাংলা</a>
+                  <a href="/en" title="Olwel - Feel Well">
+                  <img src="../img/logo-for-web.png" title="Olwel.com" class="logo"/>
+                  </a>
+                  <button class="navbar-toggler d-block d-md-none o-nav-button" type="button" data-toggle="collapse"
+                     data-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon o-burger"></span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="d-none d-md-block o-nav-container">
+            <div id="navbar" class="container-fluid o-nav">
+               <div class="container">
+                  <!-- Desktop Nav bar -->
+                  <div class="row">
+                     <div class="col-md-12">
+                        <nav class="navbar navbar-expand-md navbar-light o-nav-border o-brand">
+                           <div class="o-brand">
+                              <span class="o-call-no">CALL 09666 766 000</span> to get a doctor
+                           </div>
+                           <div class="ml-auto navbar-collapse olwelNavbar">
+                              <ul class="navbar-nav d-table ml-auto">
+                                 <li class="nav-item d-table-cell text-center">
+                                    <a class="nav-link" href="#howtoget">ASK FOR DOCTOR<span class="sr-only">(current)</span></a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="dropdown">
+                              <div onclick="myFunction()" class="covid-link dropdown-toggle">FIND DOCTORS BY DEPARTMENT</div>
+                              <div id="myDropdown" class="dropdown-content">
+                                 <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                 <a href="#Burn&PlasticSurgery">Burn & Plastic Surgery</a>
+                                 <a href="#CardiacSurgery">Cardiac Surgery</a>
+                                 <a href="#Cardiology">Cardiology</a>
+                                 <a href="#Dentistry">Dentistry</a>
+                                 <a href="#Dermatology&Venereology">Dermatology & Venereology</a>
+                                 <a href="#Diet&Nutrition">Diet & Nutrition</a>
+                                 <a href="#Endocrinology">Endocrinology</a>
+                                 <a href="#ENT/Otolaryngology">ENT / Otolaryngology</a>
+                                 <a href="#Gastroenterology">Gastroenterology</a>
+                                 <a href="#Hepatobiliary&GeneralSurgery">Hepatobiliary & General Surgery</a>
+                                 <a href="#Medicine">Medicine</a>
+                                 <a href="#Medicine&DiabetesSpecialist">Medicine & Diabetes Specialist</a>
+                                 <a href="#Nephrology">Nephrology</a>
+                                 <a href="#Neuromedicine">Neuromedicine</a>
+                                 <a href="#Neurology">Neurology</a>
+                                 <a href="#Neurosurgery">Neurosurgery</a>
+                                 <a href="#Obstetrics&Gynaecology">Obstetrics & Gynaecology</a>
+                                 <a href="#Oncology">Oncology</a>
+                                 <a href="#Opthalmology">Opthalmology</a>
+                                 <a href="#OrthopaedicSurgery">Orthopaedic Surgery</a>
+                                 <a href="#Orthopaedics">Orthopaedics</a>
+                                 <a href="#Paediatrics">Paediatrics</a>
+                                 <a href="#Paediatrics&Neonatology">Paediatrics & Neonatology</a>
+                                 <a href="#PaediatricSurgery">Paediatric Surgery</a>
+                                 <a href="#Paediatrics&Neurology">Paediatrics & Neurology</a>
+                                 <a href="#PhysicalMedicine">Physical Medicine</a>
+                                 <a href="#Psychiatry">Psychiatry</a>
+                                 <a href="#RespiratoryMedicine">Respiratory Medicine</a>
+                                 <a href="#Rheumatology">Rheumatology</a>
+                                 <a href="#Surgery">Surgery</a>
+                                 <a href="#Urology">Urology</a>
+                              </div>
+                           </div>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Mobile Navbar -->
+         <!--<div class="col-md-12 d-block d-md-none">-->
+         <nav class="navbar navbar-expand-md navbar-light d-block d-md-none">
+            <div class="col-md-5 ml-auto">
+               <div class="collapse navbar-collapse olwelNavbar" id="navbarSupportedContent">
+                  <ul class="navbar-nav o-nav-bar">
+                     <li class="nav-item d-table-cell text-center">
+                        <a class="nav-link" href="#howtoget">ASK FOR DOCTOR<span class="sr-only">(current)</span></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <section class="container padding-top-50 font-grey">
+         <div class="col-sm-12 margin-bottom-50 ">
+            <h3 class="o-heading text-center">Our Consultant Doctors</h3>
+         </div>
+         <!--Burn & Plastic Surgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Burn&PlasticSurgery" class="o-heading"><b>Burn & Plastic Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Rabiul Karim Khan Papon</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (Plastic and Reconstructive Surgery), Advanced training from USA, UK, Singapore, Thailand, India<br>Associate Professor of Plastic Surgery, Sheikh Hasina National Institute of Burn and Plastic Surgery, Dhaka, Bangladesh</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-34539</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Sayed Imran Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (Plastic and Reconstructive Surgery)<br>Lieutenant Colonel, Bangladesh Army. CMH</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-33425</!-->
+               </div>
+            </div>
+         </div>
+         <!--Cardiac Surgery-->
+         <div class="col-sm-12 margin-bottom-20 ">
+            <h3 id="CardiacSurgery" class="o-heading"><b>Cardiac Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Salahuddin Rahaman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MS<br>Consutant, NICVD and CSBF Health Centre</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-47729</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Cardiology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Cardiology" class="o-heading"><b>Cardiology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Faruque</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MD (Cardiology)<br>exProfessor NICVD</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-7351</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Estakur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD<br>Consultant, NICVD</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-45319</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Dentistry-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Dentistry" class="o-heading"><b>Dentistry</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mazharul Islam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">BDS<br>Private practice</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Suraiya Islam Dina</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">BDS,MCPS, FCPS (Orthodontics)<br>Consultant ,BIRDEM</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-3115</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Dermatology & Venereology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Dermatology&Venereology" class="o-heading"><b>Dermatology & Venereology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_moazzem.png">
+                  <h5 class="text-center">Dr. Moazzem Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DDV<br>Professor and ex departmental head of Skin VD, Rajshahi Medical college Hospital.</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Munira Ferdous</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DDV(BSMMU)<br>Unique hospital & diagnostic centre,hathazari,chattogram</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-76212</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mohammod Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS(1988), DDV( DMC)-2004, FRSH(UK)<br>Senior Consultant (Skin & VD), 300 Bedded Hospital, Narayanganj</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-22886</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Diet & Nutrition-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Diet&Nutrition" class="o-heading"><b>Diet & Nutrition</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Syeda Farhana Mahmood</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">B.Sc., M.Sc.(INFS, DU)<br>Consultant Dietitian, Uttara Crescent Hospital</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-45319</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Endocrinology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Endocrinology" class="o-heading"><b>Endocrinology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Imtiaz Mahbub</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MD<br>Assistant Professor, SHNIBPS</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-40696</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Atiqur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD<br>Assistant Professor, National institute of Neuroscience</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-32687</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Ashim Dhar</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD (Endocrinolog)<br>Shaheed Suhrawardy Medical College Hospital.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-38689</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_sakhawathossen.png">
+                  <h5 class="text-center">Dr. Mohammad Sakhawat Hossen Khan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(MEDICINE), MRCP(UK)<br>Consultant, BIRDEM General Hospital, Shahbag, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43884</p> -->
+               </div>
+            </div>
+         </div>
+         <!--ENT / Otolaryngology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="ENT/Otolaryngology" class="o-heading"><b>ENT / Otolaryngology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Asaduzzaman Rasel</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(ENT), FACS<br>Consultant, ENT and Head Neck Cancer Hospital & Institute, Sher-e-Bangla Nagar</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-38565</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Syed Farhan Ali Razib</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS<br>Associate Professor, Head & Neck cancer surgeon, Head & Neck Division, Dept. of ORLHN, Bangabandhu Sheikh Mujib Medical University(BSMMU), Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-32582</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Jahangir Alam Mazumder</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DLO, MRCPS(Glasg, UK)<br>Associate professor (ENT), Cumilla Medical College.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-22118</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Gastroenterology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Gastroenterology" class="o-heading"><b>Gastroenterology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Moshfiqur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS, MD<br>Registrar, Sk Russel Gastro liver Hospital</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-40963</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Yasir Arafat</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD(Gastroenterology), MRCP(UK)<br>Registrar, Sheikh Russel Gastroliver Institute and Hospital, Mohakhali, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-48302</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Sarker Mohammad Sajjad</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS,MRCP (UK), FCPS (Medicine)<br>BIRDEM General Hospital, Shahbag, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-40480</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Hepatobiliary & General Surgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Hepatobiliary&GeneralSurgery" class="o-heading"><b>Hepatobiliary & General Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Debashish Bar</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS (DMC), FCPS-Surgery, Fellowship in Hepatobiliary and Liver Transplant Surgery (SGRH-Delhi)<br>Registrar - Department of Surgery, Dhaka Medical College Hospital </p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-49656</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Medicine-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Medicine" class="o-heading"><b>Medicine</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Prof. Dr. Md. Titu Miah</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (Medicine), Trained in Rheumatology<br>Principal, Mugda Medical College</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. AKM Humayun Kabir</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Medicine)<br>Associate Professor,DMC</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-49656</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Asif Mahmud</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MRCP, MD (Nephrology)<br>Clinical Fellow in Medicine and Specialities, Worcester Royal Hospital, Worcester, UK.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-62976</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Hasinatul Zannat</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(Medicine), MD(Nephrology)<br>Registrar, National Institute of Kidney Diseases & Urology (NIKDU)</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43427</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Kamalesh Chandra Basu</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Medicine)<br>Assistant Professor, DMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_mahfuzul.png">
+                  <h5 class="text-center">Dr. Md. Mahfuzul Hoque</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Medicine)<br>Assistant Professor, DMC </p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Motlabur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MCPS, FCPS(Medicine), FACP,FRCP<br>Assistant Professor Neuro Medicine, Birdem</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-34675</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mostofa Kamal Adil</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Medicine)<br>Assistant Professor, BSMMU</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-51477</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_saifullah.png">
+                  <h5 class="text-center">Dr. Saifullah Russel</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Medicine)<br>Assistant Professor,DMC</p>
+                  <!-- <p class="card-text">BMDC Reg. No.  A-43367</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Syed Mahbub Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS (CMC), FCPS (Medicine)<br>Medicine Specialist, DMCH</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-53417</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Medicine & Diabetes Specialist-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Medicine&DiabetesSpecialist" class="o-heading"><b>Medicine & Diabetes Specialist</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_sakhawathossen.png">
+                  <h5 class="text-center">Dr. Mohammad Sakhawat Hossen Khan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (MEDICINE), MRCP (UK)<br>Consultant, BIRDEM General Hospital, Shahbag, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43884</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Nephrology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Nephrology" class="o-heading"><b>Nephrology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/team_feroz.jpg">
+                  <h5 class="text-center">Dr. Salahuddin Feroz</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MD<br>Junior consultant, SHNIBPS</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-34283</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Shubharthi Kar</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD<br>Assistant Professor, Sylhet M A G Osmani Medical College</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-31802</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Hasinatul Zannat</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(Medicine), MD(Nephrology)<br>Registrar, National Institute of Kidney Diseases & Urology (NIKDU)</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43427</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Saif Bin Mizan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD (Nephrology), BSMMU; CCD (Diabetology) BIRDEM<br>Assistant Professor & Head, Nephrology, Dr.Sirajul Islam Medical College, Malibagh and Consultant, Nephrology, Ibn Sina Medical College, Kallyanpur.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-54494</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Siddiqur Rahman Sohel</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD (NEPHROLOGY)<br>Assistant Professor of Nephrology, Rajshahi Medical College</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43168</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Asif Mahmud</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MRCP, MD (Nephrology)<br>Clinical Fellow in Medicine and Specialities, Worcester Royal Hospital, Worcester, UK.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-62976</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Neuromedicine-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Neuromedicine" class="o-heading"><b>Neuromedicine</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Abu Nayeem</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS, MD<br>Associate Professor, NINS</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-31534</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Alamgir Khan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MD<br>Registrar SSMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_rashedul.png">
+                  <h5 class="text-center">Dr. Md. Rashedul Islam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS, MRCP<br>Assistant Professor Neuro Medicine, Birdem</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-46043</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Rakan uz Zaman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS (DMC), FCPS(Medicine), MD(Neurology)<br>Consultant Neurology</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-43321</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Neurology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Neurology" class="o-heading"><b>Neurology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Ajay Kumar Agarwalla</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD (Neurology)<br>Assistant Registrar, Mitford Hospital</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-50823</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Neurosurgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Neurosurgery" class="o-heading"><b>Neurosurgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Shahriar Kabir</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MS(Neurosurgery)<br>Assistant Registrar, Dhaka Medical College Hospital</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-51222</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Obstetrics & Gynaecology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Obstetrics&Gynaecology" class="o-heading"><b>Obstetrics & Gynaecology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Prof. Dr. Laila Arjumand Banu</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DGO, FCPS (Obs. & Gynee), FICS<br>Chief Consultant - Obs. & Gynae, Labaid Specialist Hospital, Dhaka</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Anima Sarker</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS<br>Assistant Professor, UAMCH</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-48367</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Rahat Afza Chowdhury</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS<br>Consultant BRB hospitals Ltd.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-40790</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Tahmina Ahmed</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS(Obs and Gynaecology), Post fellowship training(India)<br>Consultant, Infertility Centre,Department of gynaecology and Obstetrics, Dhaka Medical College Hospital.</p>
+                  <!-- <p class="card-text">BMDC Reg. No. A-31112</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Sumaya Akter</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DGO<br>Assistant surgeon, Mugda 500 bedded hospital, Dhaka.</p>
+                  <!-- <p class="card-text">BMDC Reg. No.A-66528</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Oncology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Oncology" class="o-heading"><b>Oncology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_shaiful.png">
+                  <h5 class="text-center">Dr. Md. Shaiful Hassan Shameem</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS(DMC), MD(Radiation Oncology)<br>National Institute of Cancer Research & Hospital, Mohakhali, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-47727</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Opthalmology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Opthalmology" class="o-heading"><b>Opthalmology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Kamal Haider Khan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS(DMCH), MS, DO, MCPS<br>Senior Consultant, Bangladesh Eye Hospital</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mamun Ur Rashid Chowdhury</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(Ophthalmology), MCPS(Ophthalmolog)<br>Jr Consultant, Ispahani Islamia Eye Institute & Hospita, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-55147</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Orthopaedic Surgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="OrthopaedicSurgery" class="o-heading"><b>Orthopaedic Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_dibakar.png">
+                  <h5 class="text-center">Dr. Dibakar sarkar</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS (Dhaka), D-Ortho (BSMMU)<br>Assistant Professor (Orthopaedic Surgery)</p>
+                  <!-- <p class="card-text">BMDC Reg. A-42432</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Iftekhar Alam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, BCS(Health), MS(Orthopaedic surgery), AO advanced(Indonesia), AO Fellow(Bangkok)<br>Consultant, NITOR(Pongu hospital),Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-72780</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Orthopaedics-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Orthopaedics" class="o-heading"><b>Orthopaedics</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mobarak Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS,MS(Ortho)<br>Assistant Professor, DMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Quazi Shahid-ul-Alam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS (DMC),MS(Ortho)<br>Assistant Professor, DMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Shahriar Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS,MS(Ortho)<br>Assistant Professor, DMC</p>
+               </div>
+            </div>
+         </div>
+         <!--Paediatrics-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Paediatrics" class="o-heading"><b>Paediatrics</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Tania Aktar Jahan</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DCH<br>Paediatric consultant (Advanced trained in NICU/PICU), DMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Shamsul Kabir</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DCH(RCP&S, IRELAND)<br>Consultant, Pediatrician & Neonatologist, Impulse Hospital, Tejgaon, Dhaka.</p>
+                  <!-- <p class="card-text">BMDC Reg. A-7444</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Paediatrics & Neonatology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Paediatrics&Neonatology" class="o-heading"><b>Paediatrics & Neonatology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Prof. Dr. Iffat Ara Shamshad</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (Pediatrics)<br>Professor, Pediatrics, Dhaka Medical College and Hospital</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Liton Chandra Saha</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS<br>Associate Professor, Dhaka Shishu Hospital and BICH</p>
+                  <!-- <p class="card-text">BMDC Reg. A-42209</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Shamsul Kabir</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DCH(RCP&S, IRELAND)<br>Consultant, Pediatrician & Neonatologist, Impulse Hospital, Tejgaon, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-7444</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Paediatric Surgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="PaediatricSurgery" class="o-heading"><b>Paediatric Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md Samidur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MS(Pedi Surgery)<br>Professor, DMC</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Mohammed Shadrul Alam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MS(Pedi Surgery)<br>Professor, DMC</p>
+               </div>
+            </div>
+         </div>
+         <!--Paediatrics & Neurology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Paediatrics&Neurology" class="o-heading"><b>Paediatrics & Neurology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Nazmul Haque</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(Child Health), FCPS(Paediatric Neurology and Neurodevelopment), MD(Child Health<br>Assistant Professor, Paediatric Neurology department, National Instituteofneuroscience, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-32735</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Physical Medicine-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="PhysicalMedicine" class="o-heading"><b>Physical Medicine</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. F.R. Al-Mahmud</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS<br>Assistant Professor, TMSS Medical College</p>
+                  <!-- <p class="card-text">BMDC Reg. A-40760</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Hasan Habibur Rahman</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD<br>Assistant Professor, Sheikh Hasina National Institute of Burn & Plastic Surgery</p>
+                  <!-- <p class="card-text">BMDC Reg. A-39945</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Psychiatry-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Psychiatry" class="o-heading"><b>Psychiatry</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Rahanul Islam</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, MD (Psychiatry, BSMMU)<br>Resident Psychiatrist, Central Drug Addiction Treatment Centre, Department of Narcotics Control, Tejgaon, Dhaka</p>
+                  <!-- <p class="card-text">BMDC Reg. A-40375</p> -->
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_sifate.png">
+                  <h5 class="text-center">Dr. Sifat-E-Syed</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS (Psychiatry)<br>Assistant Professor, Bangabandhu Sheikh Mujib Medical University</p>
+                  <!-- <p class="card-text">BMDC Reg. A-46354</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Respiratory Medicine-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="RespiratoryMedicine" class="o-heading"><b>Respiratory Medicine</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. K. M. Monjurul Alom</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, DTCD, MD (Pulmonology)<br>Assistant Professor, Shaheed Ziaur Rahman Medical College& Hospital, Bogra.</p>
+                  <!-- <p class="card-text">BMDC Reg. A-35486</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Rheumatology-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Rheumatology" class="o-heading"><b>Rheumatology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Sushanta Kumar Saha</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS MD (Rheumatology)<br>Consultant Rheumatologist, ShSMCH</p>
+                  <!-- <p class="card-text">BMDC Reg. A-39467</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Surgery-->
+         <div class="col-sm-12 margin-bottom-20">
+            <h3 id="Surgery" class="o-heading"><b>Surgery</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Anowar Hossain</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">FCPS<br>Assistant Professor SH MC Tangail</p>
+               </div>
+            </div>
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar_female.png">
+                  <h5 class="text-center">Dr. Khadija Rahman Sonia</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS, FCPS(Surgery)<br>Assistant professor, NICRH</p>
+                  <!-- <p class="card-text">BMDC Reg. A-34045</p> -->
+               </div>
+            </div>
+         </div>
+         <!--Urology-->
+         <div id="Urology" class="col-sm-12 margin-bottom-20">
+            <h3 class="o-heading"><b>Urology</b></h3>
+         </div>
+         <div class="col-md-4 olwel-media-section margin-bottom-30 mobile-no-padding"></div>
+         <div class="row container margin-bottom-20">
+            <div class="card col-12 col-md-4 text-center" style="border-style: none;">
+               <div class="text-center">
+                  <img class="doctor-image justify-content-center margin-bottom-20" src="../img/doctor_avatar.png">
+                  <h5 class="text-center">Dr. Md. Selim Morshed</h5>
+               </div>
+               <div class="card-body">
+                  <p class="card-text">MBBS(DMC), FCPS(SURGERY), MS(UROLOGY)<br>Consultant, DMC</p>
+                  <!-- <p class="card-text">BMDC Reg. A-41954</p> -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="container">
+         <div class="col-md-12 olwel-media-section padding-top-50 mobile-no-padding"></div>
+      </div>
+      <!-- Ask for Service Content -->
+      <section id="howtoget" class="container padding-top-50 margin-bottom-50">
+         <!-- Desktop Version -->
+         <div class="row justify-content-center font-grey">
+            <div class="col-md-12 margin-bottom-50">
+               <h3 class="o-heading text-center">Ask For Doctor</h3>
+            </div>
+            <div class="col-md-6 align-self-center">
+               <div class="row o-mini-grid text-center text-md-left">
+                  <div class="col-md-6 margin-bottom-20 no-padding m-margin-bottom-0">
+                     <h3 class="o-heading">Download the App</h3>
+                     <p>Make a video call through the app.</p>
+                  </div>
+                  <div class="col-md-6 margin-bottom-20 no-padding text-center text-md-right">
+                     <a href="https://play.google.com/store/apps/details?id=com.olwel.olwelpatientsapp">
+                     <img src="../img/googleplay.png" class="google-play"/>
+                     </a>
+                  </div>
+                  <div class="o-or">Or</div>
+               </div>
+               <div class="row o-mini-grid text-center text-md-left">
+                  <div class="col-md-6 margin-bottom-20 no-padding">
+                     <h3 class="o-heading">Call <a class="font-grey no-decoration" href="tel:+8809666766000">09666 766
+                        000</a>
+                     </h3>
+                     <p>Reach us directly from your phone.</p>
+                  </div>
+                  <div class="o-or">Or</div>
+               </div>
+               <div class="row o-mini-grid no-border text-center text-md-left">
+                  <div class="col-md-12 no-padding">
+                     <h3 class="o-heading">Leave Your Number</h3>
+                     <p>And we will call you back shortly.</p>
+                  </div>
+                  <div class="col-lg-12 no-padding margin-bottom-20 m-padding-15">
+                     <div class="input-group">
+                        <input id="requestNumber" type="text" class="form-control no-radius border-right-0"
+                           placeholder="+880" aria-label="+880">
+                        <button class="btn btn-secondary no-radius o-button-primary font-arial" type="button"
+                           onclick="submitRequest(this)">SUBMIT
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="o-footer">
+         <section class="container-fluid no-padding o-footer-1">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <ul>
+                        <li class="o-footer-title">CONTACT US</li>
+                        <li>
+                           <span class="footer-icon ion-android-call"></span>Phone:
+                           9887041
+                        </li>
+                        <li>
+                           <span class="footer-icon ion-android-pin"></span
+                              ><span
+                              >Address: House 177, Lane 2, New DOHS, Mohakhali, Dhaka -
+                           1206</span
+                              >
+                        </li>
+                        <li>
+                           <span class="footer-icon ion-android-mail"></span>Email:
+                           <a href="mailto:contact@olwel.com">contact@olwel.com</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6">
+                     <ul>
+                        <li class="o-footer-title">FOLLOW US</li>
+                        <li>
+                           <a
+                              class="facebook"
+                              href="https://facebook.com/olwel.feelwell"
+                              target="_blank"
+                              ><span class="ion-social-facebook"></span
+                              ></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="container-fluid o-footer-2">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <img
+                        src="../img/logo-short.png"
+                        title="Olwel.com"
+                        class="o-footer-logo"
+                        />
+                     <span class="text-nowrap"
+                        >&copy; Olwel BD Ltd. All Rights Reserved.</span
+                        >
+                  </div>
+                  <div class="col-md-6">
+                     <span class="text-nowrap">Software Platform Development Partner:</span>
+                     <a href="http://dsinnovators.com/">
+                     <img
+                        src="../img/dsi-logo.png"
+                        title="Dynamic Solution Innovatos(DSi)"
+                        class="o-footer-dsilogo"
+                        />
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </footer>
+      <script>
+         /* When the user clicks on the button,
+         toggle between hiding and showing the dropdown content */
+         function myFunction() {
+           document.getElementById("myDropdown").classList.toggle("show");
+         }
+         
+         function filterFunction() {
+           var input, filter, ul, li, a, i;
+           input = document.getElementById("myInput");
+           filter = input.value.toUpperCase();
+           div = document.getElementById("myDropdown");
+           a = div.getElementsByTagName("a");
+           for (i = 0; i < a.length; i++) {
+             txtValue = a[i].textContent || a[i].innerText;
+             if (txtValue.toUpperCase().indexOf(filter) > -1) {
+               a[i].style.display = "";
+             } else {
+               a[i].style.display = "none";
+             }
+           }
+         }
+      </script>
+      <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+      <script src="../vendor/bootstrap/js/popper.min.js"></script>
+      <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- SEO standard meta tags -->
+      <script type="application/ld+json">
+         {
+           "@context": "http://schema.org",
+           "@type": "Organization",
+           "name": "Olwel - Feel Well",
+           "url": "https://olwel.com",
+           "sameAs": ["https://www.facebook.com/olwel.feelwell"]
+         }
+      </script>
+      <!-- Facebook Pixel Code -->
+      <script>
+         !(function(f, b, e, v, n, t, s) {
+           if (f.fbq) return;
+           n = f.fbq = function() {
+             n.callMethod
+               ? n.callMethod.apply(n, arguments)
+               : n.queue.push(arguments);
+           };
+           if (!f._fbq) f._fbq = n;
+           n.push = n;
+           n.loaded = !0;
+           n.version = "2.0";
+           n.queue = [];
+           t = b.createElement(e);
+           t.async = !0;
+           t.src = v;
+           s = b.getElementsByTagName(e)[0];
+           s.parentNode.insertBefore(t, s);
+         })(
+           window,
+           document,
+           "script",
+           "https://connect.facebook.net/en_US/fbevents.js"
+         );
+         fbq("init", "108391909969497");
+         fbq("track", "PageView");
+      </script>
+      <noscript
+         ><img
+         height="1"
+         width="1"
+         style="display:none"
+         src="https://www.facebook.com/tr?id=108391909969497&ev=PageView&noscript=1"
+         /></noscript>
+      <!-- End Facebook Pixel Code -->
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("body").scrollspy({ target: ".navbar", offset: 50 });
+           $(".olwelNavbar a").on("click", function(event) {
+             if (this.hash !== "") {
+               event.preventDefault();
+               var hash = this.hash;
+               $("html, body").animate(
+                 {
+                   scrollTop: $(hash).offset().top
+                 },
+                 800,
+                 function() {
+                   window.location.hash = hash;
+                 }
+               );
+             }
+           });
+         });
+         function submitRequest(btn) {
+           $(btn).prop("disabled", true);
+           $.ajax({
+             type: "POST",
+             url: "https://api.olwel.com/api/v1/call-requests",
+             data: JSON.stringify({
+               phone: $("#requestNumber").val(),
+               source: "web"
+             }),
+             contentType: "application/json; charset=utf-8",
+             dataType: "json",
+             success: function() {
+               alert("Thank you for your number. We will call you back shortly");
+               $(btn).prop("disabled", false);
+             },
+             error: function() {
+               alert("Your number couldn't be submitted. Please try again.");
+               $(btn).prop("disabled", false);
+             }
+           });
+         }
+         $(document).on("scroll", function() {
+           if (window.scrollY >= 116) {
+             $("#header").addClass("o-fixed-header");
+           } else {
+             $("#header").removeClass("o-fixed-header");
+           }
+         });
+         $(".o-video-play").on("click", function() {
+           $(".o-video-caption").addClass("hide");
+           $(
+             '<iframe class="youtube-video" src="https://www.youtube.com/embed/videoseries?list=PLVqS8Zex1zxo_DD9OArLAgc5s1FJx9rb1" frameborder="0" allowfullscreen></iframe>'
+           ).appendTo(".o-video");
+         });
+      </script>
+   </body>
+</html>
